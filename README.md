@@ -11,7 +11,7 @@
 
 <div style="position: relative; border: 1px solid #ddd; padding: 20px; margin-bottom: 40px; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
     <img src="/images/Screenshot%20from%202025-01-17%2013-39-27.png" alt="Weather App Screenshot" width="100%" style="max-width: 500px; border-radius: 8px;">
-    <h3 style="position: absolute; bottom: 10px; left: 20px; color: rgba(255, 255, 255, 0.8); font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); background-color: rgba(0, 0, 0, 0.5); padding: 5px 10px; border-radius: 5px;">
+    <h3 style="position: absolute; top: 10px; right: 10px; color: #333; font-size: 22px; font-weight: bold; background-color: #FFEB3B; padding: 10px 15px; border-radius: 5px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);">
         Weather-App
     </h3>
     <p style="margin-top: 80px;"> 
@@ -23,7 +23,7 @@
 
 <div style="position: relative; border: 1px solid #ddd; padding: 20px; margin-bottom: 40px; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
     <img src="/images/Screenshot%20from%202025-01-25%2000-02-08.png" alt="Image Augmentation Tool Screenshot" width="100%" style="max-width: 500px; border-radius: 8px;">
-    <h3 style="position: absolute; bottom: 10px; left: 20px; color: rgba(255, 255, 255, 0.8); font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); background-color: rgba(0, 0, 0, 0.5); padding: 5px 10px; border-radius: 5px;">
+    <h3 style="position: absolute; top: 10px; right: 10px; color: #333; font-size: 22px; font-weight: bold; background-color: #FFEB3B; padding: 10px 15px; border-radius: 5px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);">
         Image Augmentation Tool
     </h3>
     <p style="margin-top: 80px;"> 
@@ -35,7 +35,7 @@
 
 <div style="position: relative; border: 1px solid #ddd; padding: 20px; margin-bottom: 40px; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
     <img src="/images/Screenshot%20from%202025-01-21%2017-47-32.png" alt="Image Processor Library Screenshot" width="100%" style="max-width: 500px; border-radius: 8px;">
-    <h3 style="position: absolute; bottom: 10px; left: 20px; color: rgba(255, 255, 255, 0.8); font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); background-color: rgba(0, 0, 0, 0.5); padding: 5px 10px; border-radius: 5px;">
+    <h3 style="position: absolute; top: 10px; right: 10px; color: #333; font-size: 22px; font-weight: bold; background-color: #FFEB3B; padding: 10px 15px; border-radius: 5px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);">
         Image Processor Library
     </h3>
     <p style="margin-top: 80px;">
