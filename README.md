@@ -9,7 +9,7 @@
 
 # My Projects
 
-<div style="position: relative; border: 1px solid #ddd; padding: 20px; margin-bottom: 40px; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+<div style="position: relative; padding: 20px; margin-bottom: 70px;">
     <img src="/images/Screenshot%20from%202025-01-17%2013-39-27.png" alt="Weather App Screenshot" width="70%" style="max-width: 450px; border-radius: 8px;">
     <h3 style="position: absolute; top: 10px; right: 10px; color: #333; font-size: 22px; font-weight: bold; background-color: rgba(255, 235, 59, 0.9); padding: 5px 10px; border-radius: 5px;">
         Weather-App
@@ -21,7 +21,7 @@
 
 ---
 
-<div style="position: relative; border: 1px solid #ddd; padding: 20px; margin-bottom: 40px; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+<div style="position: relative; padding: 20px; margin-bottom: 70px;">
     <img src="/images/Screenshot%20from%202025-01-25%2000-02-08.png" alt="Image Augmentation Tool Screenshot" width="70%" style="max-width: 450px; border-radius: 8px;">
     <h3 style="position: absolute; top: 10px; right: 10px; color: #333; font-size: 22px; font-weight: bold; background-color: rgba(255, 235, 59, 0.9); padding: 5px 10px; border-radius: 5px;">
         Image Augmentation Tool
@@ -33,7 +33,7 @@
 
 ---
 
-<div style="position: relative; border: 1px solid #ddd; padding: 20px; margin-bottom: 40px; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+<div style="position: relative; padding: 20px; margin-bottom: 70px;">
     <img src="/images/Screenshot%20from%202025-01-21%2017-47-32.png" alt="Image Processor Library Screenshot" width="70%" style="max-width: 450px; border-radius: 8px;">
     <h3 style="position: absolute; top: 10px; right: 10px; color: #333; font-size: 22px; font-weight: bold; background-color: rgba(255, 235, 59, 0.9); padding: 5px 10px; border-radius: 5px;">
         Image Processor Library
