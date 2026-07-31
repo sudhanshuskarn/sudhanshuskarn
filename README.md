@@ -37,14 +37,14 @@
 ```cpp
 /**
  * about.cpp
- * ------------------------------
- * Software Engineer Portfolio
- * ------------------------------
+ * -----------------------------------------
+ * GitHub Profile - About Me
+ * -----------------------------------------
  */
 
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 
 class Developer
 {
@@ -79,19 +79,58 @@ private:
 
 public:
 
-    void introduce() const
+    friend std::ostream& operator<<(std::ostream& os,
+                                    const Developer& dev)
     {
-        std::cout
-            << "Building scalable software "
-            << "with modern technologies."
-            << std::endl;
+        os << "Developer {\n";
+
+        os << "    name        : \"" << dev.name << "\",\n";
+
+        os << "    role        : \"" << dev.role << "\",\n";
+
+        os << "    languages   : [";
+        for (size_t i = 0; i < dev.languages.size(); ++i)
+        {
+            os << "\"" << dev.languages[i] << "\"";
+            if (i + 1 != dev.languages.size())
+                os << ", ";
+        }
+        os << "],\n";
+
+        os << "    backend     : [";
+        for (size_t i = 0; i < dev.backend.size(); ++i)
+        {
+            os << "\"" << dev.backend[i] << "\"";
+            if (i + 1 != dev.backend.size())
+                os << ", ";
+        }
+        os << "],\n";
+
+        os << "    interests   : [";
+        for (size_t i = 0; i < dev.interests.size(); ++i)
+        {
+            os << "\"" << dev.interests[i] << "\"";
+            if (i + 1 != dev.interests.size())
+                os << ", ";
+        }
+        os << "],\n";
+
+        os << "    available   : "
+           << std::boolalpha
+           << dev.openForCollaboration
+           << '\n';
+
+        os << "}";
+
+        return os;
     }
 };
 
 int main()
 {
     Developer me;
-    me.introduce();
+
+    std::cout << me << std::endl;
 
     return 0;
 }
@@ -103,23 +142,19 @@ int main()
 ```text
 ┌────────────────────────────────────┐
 │           Program Output           │
-├────────────────────────────────────┤
-│                                    │
-│ > Building scalable software       │
-│   with modern technologies.        │
-│                                    │
-│ > Learning:                        │
-│   • Software Architecture          │
-│   • API Design                     │
-│   • System Design                  │
-│                                    │
-│ > Looking for:                     │
-│   Open Source Collaboration        │
-│                                    │
-│ > Status:                          │
-│   Available 🚀                     │
-│                                    │
 └────────────────────────────────────┘
+$ g++ about.cpp -o about
+
+$ ./about
+
+Developer {
+    name        : "Sudhanshu Shekhar Karn",
+    role        : "Software Engineer",
+    languages   : ["C++", "Python", "Java", "JavaScript"],
+    backend     : ["FastAPI", "Spring Boot", "REST APIs"],
+    interests   : ["Software Architecture", "API Design", "System Design", "Open Source"],
+    available   : true
+}
 ```
 
 </td>
