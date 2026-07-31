@@ -5,6 +5,19 @@
 </p>
 
 <p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:3B82F6,100:8B5CF6&text=Sudhanshu%20Shekhar%20Karn&fontColor=ffffff&fontSize=42&animation=fadeIn"/>
+</p>
+
+<p align="center">
+  <img
+    src="images/Sudhanshu-passportphoto2.png"
+    alt="Sudhanshu Shekhar Karn"
+    width="220"
+    style="border-radius:100%;"
+  />
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/sudhanshu-karn-44653a214">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
