@@ -138,6 +138,7 @@ int main()
 </tr>
 <tr>
 
+### Linux
 ```text
 ┌────────────────────────────────────┐
 │           Program Output           │
@@ -155,6 +156,7 @@ Developer {
     available   : true
 }
 ```
+### Windows
 <img src="images/aboutmeoutput.png" alt="Program Output">
 </tr>
 </table>
