@@ -32,7 +32,6 @@
 
 <table>
 <tr>
-<td>
 
 ```cpp
 /**
@@ -136,8 +135,8 @@ int main()
 }
 ```
 
-</td>
-<td width="380">
+</tr>
+<tr>
 
 ```text
 ┌────────────────────────────────────┐
@@ -157,7 +156,6 @@ Developer {
 }
 ```
 <img src="images/aboutmeoutput.png" alt="Program Output">
-</td>
 </tr>
 </table>
 
