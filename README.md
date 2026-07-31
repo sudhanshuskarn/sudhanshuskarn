@@ -156,7 +156,7 @@ Developer {
     available   : true
 }
 ```
-
+<img src="images/aboutmeoutput.png" alt="Program Output">
 </td>
 </tr>
 </table>
