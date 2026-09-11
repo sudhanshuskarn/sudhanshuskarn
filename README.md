@@ -4,31 +4,37 @@
 
 ### Software Engineer · Backend & AI Agent Builder · Open Source Contributor
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Backend+%26+AI+Systems;Python+%7C+C%2B%2B+%7C+FastAPI+%7C+PostgreSQL;AI+Agents+%7C+APIs+%7C+System+Design;Open+Source+Contributor;Learning.+Building.+Shipping." alt="Typing SVG" />
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Building+Backend+%26+AI+Systems;Python+%7C+C%2B%2B+%7C+FastAPI+%7C+PostgreSQL;AI+Agents+%7C+APIs+%7C+System+Design;Open+Source+Contributor;Learn.+Build.+Ship.+Repeat."
+  alt="Typing SVG"
+/>
 
 <br/>
 
 <img
-src="images/Sudhanshu-passportphoto2.png"
-alt="Sudhanshu Shekhar Karn"
-width="170"
+  src="images/Sudhanshu-passportphoto2.png"
+  alt="Sudhanshu Shekhar Karn"
+  width="170"
 />
 
 <br/><br/>
 
 <a href="https://sudhanshu-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
 <a href="https://www.linkedin.com/in/sudhanshu-karn-44653a214">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="https://github.com/sudhanshuskarn">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=sudhanshuskarn&label=Profile%20Views&color=58A6FF&style=flat-square" alt="Profile views"/>
+<img
+  src="https://komarev.com/ghpvc/?username=sudhanshuskarn&label=Profile%20Views&color=58A6FF&style=flat-square"
+  alt="Profile Views"
+/>
 
 </div>
 
@@ -36,14 +42,15 @@ width="170"
 
 ## 👨‍💻 About Me
 
-I'm a software engineer interested in building **backend systems, AI-powered applications, developer tools, and reliable APIs**.
+I'm a software engineer focused on **backend engineering, AI-powered applications, agentic systems, APIs, and software architecture**.
 
-My experience spans enterprise software implementation and technical troubleshooting as well as hands-on software development with **Python, C++, FastAPI, PostgreSQL, Next.js, Docker, REST APIs, LLMs, and AI agents**.
+My background combines enterprise software implementation and technical troubleshooting with hands-on engineering using **Python, C++, FastAPI, PostgreSQL, SQL, Next.js, Docker, REST APIs, LLMs, and AI agents**.
 
-These days, I'm especially interested in the engineering behind **agentic systems** — tool use, model boundaries, backend orchestration, structured data access, reliability, and production-oriented architecture.
+I enjoy going beyond the model layer of AI applications — thinking about **tool boundaries, deterministic business logic, authentication, tenant isolation, databases, testing, reliability, and the backend systems surrounding AI agents**.
 
 ```yaml
 name: Sudhanshu Shekhar Karn
+
 focus:
   - Backend Engineering
   - AI Agents & Agentic Systems
@@ -58,9 +65,10 @@ core_languages:
   - SQL
 
 currently:
-  building: AI + backend systems
+  building: Backend + AI systems
   learning: System Design & Agent Architecture
-  contributing_to: Open Source
+  contributing: Open Source
+  collaboration: Open
 ```
 
 ---
@@ -69,19 +77,20 @@ currently:
 
 ### 🤖 AI Banking Servicing Agent
 
-A banking-domain AI agent prototype exploring how **LLM agents can safely interact with deterministic business tools**.
+A banking-domain AI agent prototype exploring how **LLM agents can interact reliably with deterministic business tools**.
 
-**Currently implemented:**
+#### Currently implemented
 
-* Python 3.12 agent project using **Google ADK**
-* Gemini-backed agent orchestration
-* Deterministic synthetic **KYC requirements tool**
-* ADK tool registration and invocation
-* Natural-language request → agent → banking tool → grounded response flow
-* Agent instructions and safeguards around synthetic banking data
-* Reliability testing around keeping model responses grounded in authoritative tool output
+- Python 3.12 project using **Google ADK**
+- Gemini-backed ADK agent
+- Deterministic synthetic KYC requirements tool
+- ADK tool registration and invocation
+- Natural-language KYC request → agent → banking tool → response flow
+- Instructions and safeguards around synthetic banking data
+- Testing of tool-grounded response behavior
+- Identification of reliability boundaries between model-generated content and authoritative tool output
 
-> A key engineering focus is preventing the language model from introducing information that was not returned by the underlying authoritative tool.
+> One of the key engineering problems I'm exploring is ensuring that the model does not introduce business information that was never returned by the authoritative tool.
 
 `Python` · `Google ADK` · `Gemini` · `AI Agents` · `Tool Calling`
 
@@ -89,74 +98,99 @@ A banking-domain AI agent prototype exploring how **LLM agents can safely intera
 
 ### 🧠 QueryMytext
 
-A multi-tenant AI/data platform I'm engineering to explore how natural-language interfaces can work safely with tenant-specific databases and LLM configurations.
+A multi-tenant AI/data analytics platform I'm engineering to explore how natural-language interfaces can work securely with tenant-specific databases and LLM configurations.
 
-**Engineering areas include:**
+#### Engineering areas
 
-* Multi-tenant backend architecture
-* FastAPI REST APIs
-* PostgreSQL + SQLAlchemy
-* Authentication and authorization
-* Tenant isolation
-* LLM configuration
-* Database connectivity
-* Natural-language data querying
-* Security boundaries and regression testing
-* Next.js tenant and administration interfaces
+- Multi-tenant backend architecture
+- FastAPI REST APIs
+- PostgreSQL + SQLAlchemy
+- Authentication and authorization
+- Tenant isolation
+- Role-based access control
+- Tenant database configuration
+- Tenant-specific LLM configuration
+- Natural-language data querying
+- Security boundaries
+- Regression testing
+- Next.js tenant interface
+- Super-admin and tenant administration flows
 
-`Python` · `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Next.js` · `LLMs` · `Docker`
+#### Security work
+
+The backend includes explicit security boundaries around:
+
+- Tenant-to-token binding
+- Tenant administrator authorization
+- Super-admin role enforcement
+- Suspended tenant restrictions
+- Protected tenant data access
+- JWT validation
+- Regression tests for authentication and authorization behavior
+
+`Python` · `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Next.js` · `JWT` · `LLMs` · `Docker`
 
 ---
 
 ## 🌊 Open Source
 
-### Contributor — Human Agent Society / Reef
+### Human Agent Society — Reef
+
+> **Merged upstream open-source contribution** ✅
 
 I contributed to **Reef**, an open-source infrastructure project for continual learning and self-improving agents.
 
-<a href="https://github.com/Human-Agent-Society/reef">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Human-Agent-Society&repo=reef&theme=github_dark&hide_border=true&border_radius=10" alt="Human-Agent-Society Reef"/>
-</a>
+#### Issue `#177`
 
-### My contribution
+Worked on nested evolution configuration and **dotted-reference recipe handling** in Reef's service layer.
 
-Worked on **nested evolution recipe configuration / dotted-reference resolution** in Reef's service layer.
+#### What I contributed
 
-* Improved handling of dotted-reference recipe configuration
-* Ensured recipe settings were passed correctly through the service assembly flow
-* Added regression coverage for the behavior
-* Validated the implementation against the relevant training-server test suite
-* **40 tests passed** in the affected test module
-* Contribution was reviewed and **merged upstream**
+- Improved dotted-reference recipe configuration resolution
+- Ensured recipe-specific settings were passed through the service assembly flow
+- Added regression coverage for dotted-reference behavior
+- Validated the implementation against the affected training-server tests
+- **40 tests passing** in the relevant test module
+- Contribution reviewed and **merged upstream**
 
-<a href="https://github.com/Human-Agent-Society/reef/issues/177">
-  <img src="https://img.shields.io/badge/Issue-%23177-8957E5?style=for-the-badge&logo=github"/>
-</a>
-<a href="https://github.com/Human-Agent-Society/reef">
-  <img src="https://img.shields.io/badge/Upstream-Reef-238636?style=for-the-badge&logo=github"/>
-</a>
+<p>
+  <a href="https://github.com/Human-Agent-Society/reef/issues/177">
+    <img
+      src="https://img.shields.io/badge/Issue-%23177-8957E5?style=for-the-badge&logo=github&logoColor=white"
+      alt="Reef Issue 177"
+    />
+  </a>
+  <a href="https://github.com/Human-Agent-Society/reef">
+    <img
+      src="https://img.shields.io/badge/Upstream-Human--Agent--Society%2FReef-238636?style=for-the-badge&logo=github&logoColor=white"
+      alt="Reef Repository"
+    />
+  </a>
+</p>
 
-> Open source has become an important part of how I learn unfamiliar codebases, understand existing architecture, communicate technical decisions, and ship changes that must work within someone else's system.
+Working on Reef gave me practical experience with:
+
+`Existing Codebases` · `Git Workflows` · `Regression Testing` · `Code Review` · `Python` · `Open Source Collaboration`
 
 ---
 
-## 🧰 Engineering Stack
+## 🧰 Tech Stack
 
 <div align="center">
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=python,cpp,java,javascript,typescript" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,java,javascript,typescript" alt="Programming Languages"/>
 
 ### Backend & Web
 
-<img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,nodejs" alt="Backend and Web"/>
+<img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,nodejs" alt="Backend and Web Technologies"/>
 
-### Data & Infrastructure
+### Databases & Infrastructure
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,git,github,linux" alt="Data and Infrastructure"/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,git,github,linux" alt="Databases and Infrastructure"/>
 
-### Development
+### Development Tools
 
 <img src="https://skillicons.dev/icons?i=vscode,postman" alt="Development Tools"/>
 
@@ -164,7 +198,11 @@ Worked on **nested evolution recipe configuration / dotted-reference resolution*
 
 <br/>
 
-**Also working with:** REST APIs · SQLAlchemy · JWT · LLM APIs · RAG · Google ADK · Gemini · Testing · GitHub Actions · WSL
+<div align="center">
+
+`REST APIs` · `SQLAlchemy` · `JWT` · `LLM APIs` · `RAG` · `Google ADK` · `Gemini` · `Testing` · `Git` · `WSL`
+
+</div>
 
 ---
 
@@ -174,136 +212,223 @@ Worked on **nested evolution recipe configuration / dotted-reference resolution*
 Backend Engineering       ████████████████████
 AI Agents                 ████████████████████
 API Design                ███████████████████░
-Software Architecture     ██████████████████░░
-System Design             █████████████████░░░
+Software Architecture     ███████████████████░
+System Design             ██████████████████░░
 Open Source               ███████████████████░
 C++ / Systems             ████████████████░░░░
 ```
 
-I enjoy problems involving:
+I especially enjoy engineering problems involving:
 
-* API and backend architecture
-* Agent/tool boundaries
-* Multi-tenant systems
-* Authentication and authorization
-* LLM reliability
-* Data and database systems
-* Root-cause analysis
-* Software design and maintainability
-* Performance-oriented C++ and Python
-* Understanding large existing codebases
-
----
-
-## 🛠️ More Projects
-
-### 🌦️ Weather App
-
-Responsive weather application integrating the OpenWeatherMap API for real-time weather data.
-
-`JavaScript` · `API Integration` · `Responsive UI`
-
-<a href="https://github.com/sudhanshuskarn/weather-app">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sudhanshuskarn&repo=weather-app&theme=github_dark&hide_border=true&border_radius=10" alt="Weather App"/>
-</a>
+- Backend and API architecture
+- AI agent/tool boundaries
+- Multi-tenant systems
+- Authentication and authorization
+- LLM reliability
+- Database-backed applications
+- Root-cause analysis
+- Software design and maintainability
+- C++ and Python
+- Understanding unfamiliar codebases
 
 ---
 
-### 🖼️ Image Augmentation Toolkit
+# 🛠️ Featured Projects
 
-Python toolkit for generating transformed image datasets through operations including rotation, scaling, cropping, flipping, brightness adjustment, and color transformations.
+## 🌦️ Weather App
 
-`Python` · `Image Processing` · `Testing` · `CLI`
+<p align="center">
+  <img
+    src="images/Screenshot%20from%202025-01-17%2013-39-27.png"
+    alt="Weather App"
+    width="850"
+  />
+</p>
 
-<a href="https://github.com/sudhanshuskarn/sudhanshu_image_augmentor">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sudhanshuskarn&repo=sudhanshu_image_augmentor&theme=github_dark&hide_border=true&border_radius=10" alt="Image Augmentation Toolkit"/>
-</a>
+A responsive weather application that fetches real-time weather information using the **OpenWeatherMap API**.
+
+### Features
+
+- Live weather information
+- Temperature
+- Humidity
+- Wind speed
+- Weather conditions and icons
+- Location search
+- Responsive interface
+
+**Built with**
+
+`JavaScript` · `Next.js` · `Tailwind CSS` · `OpenWeatherMap API`
 
 ---
 
-### ⚙️ Image Processor
+## 🖼️ Image Augmentation Toolkit
 
-Reusable C++ image-processing library for Linux providing filtering and image-enhancement operations.
+<p align="center">
+  <img
+    src="images/Screenshot%20from%202025-01-25%2000-02-08.png"
+    alt="Image Augmentation Toolkit"
+    width="850"
+  />
+</p>
+
+A Python image-processing toolkit for generating transformed datasets through configurable augmentation operations.
+
+### Capabilities
+
+- Rotation
+- Scaling
+- Cropping
+- Flipping
+- Brightness adjustment
+- Color transformations
+- Reusable augmentation workflow
+- Command-line interface
+
+**Built with**
+
+`Python` · `Pillow` · `Image Processing` · `CLI` · `Testing`
+
+---
+
+## ⚙️ C++ Image Processor
+
+<p align="center">
+  <img
+    src="images/Screenshot%20from%202025-01-21%2017-47-32.png"
+    alt="C++ Image Processor"
+    width="850"
+  />
+</p>
+
+A reusable C++ image-processing library for Linux providing image enhancement, filtering, and transformation operations.
+
+### Capabilities
+
+- Blur filters
+- Contrast enhancement
+- Gamma correction
+- Image transformations
+- Reusable API
+- Linux-based development
+
+**Built with**
 
 `C++` · `OpenCV` · `Linux` · `Library Design`
 
-<a href="https://github.com/sudhanshuskarn/imageprocessor">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sudhanshuskarn&repo=imageprocessor&theme=github_dark&hide_border=true&border_radius=10" alt="Image Processor"/>
-</a>
+---
+
+## 🧪 How I Approach Engineering
+
+```text
+Understand the problem
+        ↓
+Inspect constraints
+        ↓
+Design the boundary
+        ↓
+Implement the smallest reliable solution
+        ↓
+Test behavior & edge cases
+        ↓
+Debug the root cause
+        ↓
+Refactor when the abstraction becomes clear
+        ↓
+Ship
+```
+
+I care about **why a system works**, not just getting it to work once.
+
+That means thinking about correctness, failure modes, maintainability, security boundaries, testing, and how individual components fit into the larger architecture.
 
 ---
 
-## 📊 GitHub
+## 📊 GitHub Activity
+
 
 <div align="center">
 
 <img
-src="https://github-readme-stats.vercel.app/api?username=sudhanshuskarn&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"
-width="48%"
-alt="Sudhanshu's GitHub stats"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sudhanshuskarn&theme=github_dark"
+  alt="GitHub Profile Summary"
+  width="100%"
 />
 
+<br/><br/>
+
 <img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshuskarn&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
-width="48%"
-alt="Most Used Languages"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sudhanshuskarn&theme=github_dark"
+  alt="GitHub Stats"
+  width="48%"
 />
 
-<br/>
+<br/><br/>
 
 <img
-src="https://streak-stats.demolab.com?user=sudhanshuskarn&theme=github-dark-blue&hide_border=true"
-width="70%"
-alt="GitHub Streak"
-/>
-
-<br/>
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=sudhanshuskarn&theme=github-compact&hide_border=true&area=true"
-width="100%"
-alt="Contribution Activity Graph"
+  src="https://streak-stats.demolab.com?user=sudhanshuskarn&theme=github-dark-blue&hide_border=true"
+  alt="GitHub Streak"
+  width="70%"
 />
 
 </div>
-
 ---
 
 ## 🎯 Current Focus
 
 ```text
-01  Build reliable AI agents that use real tools
-02  Engineer production-oriented Python backends
-03  Go deeper into software architecture & system design
-04  Strengthen C++ and problem-solving fundamentals
-05  Contribute meaningful changes to open-source projects
-06  Build systems worth talking about in engineering interviews
+01  Building reliable AI agents that use real tools
+
+02  Engineering production-oriented Python backends
+
+03  Going deeper into software architecture & system design
+
+04  Strengthening C++ and algorithmic problem solving
+
+05  Contributing meaningful changes to open-source projects
+
+06  Building systems that solve real engineering problems
 ```
 
 ---
 
 ## 🤝 Open to Collaboration
 
-I'm interested in collaborating on:
+I'm interested in collaborating on projects involving:
 
-**Python · C++ · Backend Engineering · AI Agents · Developer Tools · Open Source**
+**Python · C++ · Backend Engineering · AI Agents · APIs · Developer Tools · Open Source**
 
-If you're building something technically interesting, feel free to reach out.
+I'm particularly interested in systems where **AI meets real software engineering** — APIs, tools, databases, workflows, security, reliability, and architecture.
 
 <div align="center">
 
-### Let's build something useful.
+## Let's Build Something Useful.
 
 <a href="https://www.linkedin.com/in/sudhanshu-karn-44653a214">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img
+    src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="LinkedIn"
+  />
 </a>
 
 <a href="https://sudhanshu-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-Explore-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img
+    src="https://img.shields.io/badge/Portfolio-Explore-000000?style=for-the-badge&logo=vercel&logoColor=white"
+    alt="Portfolio"
+  />
 </a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:58A6FF,50:7C3AED,100:111827"/>
+### `Code · Learn · Build · Contribute · Repeat`
+
+<br/>
+
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:58A6FF,50:7C3AED,100:111827"
+  width="100%"
+  alt=""
+/>
 
 </div>
