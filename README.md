@@ -180,7 +180,7 @@ Working on Reef gave me practical experience with:
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=python,cpp,java,javascript,typescript" alt="Programming Languages"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,javascript,typescript" alt="Programming Languages"/>
 
 ### Backend & Web
 
@@ -188,7 +188,7 @@ Working on Reef gave me practical experience with:
 
 ### Databases & Infrastructure
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,git,github,linux" alt="Databases and Infrastructure"/>
+<img src="https://skillicons.dev/icons?i=postgres,docker,git,github,linux" alt="Databases and Infrastructure"/>
 
 ### Development Tools
 
